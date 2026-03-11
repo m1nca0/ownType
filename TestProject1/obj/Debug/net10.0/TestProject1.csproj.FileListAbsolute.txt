@@ -1,0 +1,6 @@
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\TestProject1\obj\Debug\net10.0\TestProject1.csproj.AssemblyReference.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\TestProject1\obj\Debug\net10.0\TestProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\TestProject1\obj\Debug\net10.0\TestProject1.AssemblyInfoInputs.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\TestProject1\obj\Debug\net10.0\TestProject1.AssemblyInfo.cs
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\TestProject1\obj\Debug\net10.0\TestProject1.csproj.CoreCompileInputs.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\TestProject1\obj\Debug\net10.0\TestProject1.sourcelink.json
