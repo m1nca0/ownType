@@ -154,6 +154,7 @@
             cm1.Size = new Size(48, 23);
             cm1.TabIndex = 12;
             cm1.Text = "+";
+            cm1.SelectedIndexChanged += cm1_SelectedIndexChanged;
             // 
             // Form1
             // 

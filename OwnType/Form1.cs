@@ -21,7 +21,7 @@ namespace OwnType
 
                 double[] vector = new double[3];
 
-                var result = 0.0;
+                double result = 0.0;
 
                 switch (cm1.Text)
                 {
@@ -29,22 +29,25 @@ namespace OwnType
                         vector[0] = firstX + secondX;
                         vector[1] = firstY + secondY;
                         vector[2] = firstZ + secondZ;
-                        txtResult.Text = '[' + vector[0].ToString() + vector[1].ToString() + vector[2].ToString() + ']';
+                        txtResult.Text = '[' + vector[0].ToString() + ';' + vector[1].ToString() + ';' + vector[2].ToString() + ']';
                         break;
                     case "-":
                         vector[0] = firstX - secondX;
                         vector[1] = firstY - secondY;
                         vector[2] = firstZ - secondZ;
-                        txtResult.Text = vector[0].ToString() + vector[1].ToString() + vector[2].ToString();
+                        txtResult.Text = '[' + vector[0].ToString() + ';' + vector[1].ToString() + ';' + vector[2].ToString() + ']';
                         break;
                     case "*":
                         result = (firstX * secondX) + (firstY * secondY) + (firstZ * secondZ);
+                        txtResult.Text = result.ToString();
                         break;
                     case "len a":
-                        result = Math.Pow(((firstX * firstX) + (firstY * firstY) + (firstZ * firstZ)), 1 / 2);
+                        result = Math.Sqrt(((firstX * firstX) + (firstY * firstY) + (firstZ * firstZ)));
+                        txtResult.Text = result.ToString();
                         break;
                     case "len b":
-                        result = Math.Pow(((secondX * secondX) + (secondY * secondY) + (secondZ * secondZ)), 1 / 2);
+                        result = Math.Sqrt((secondX * secondX) + (secondY * secondY) + (secondZ * secondZ));
+                        txtResult.Text = result.ToString();
                         break;
 
                 }
@@ -90,6 +93,11 @@ namespace OwnType
         }
 
         private void textSecondZ_TextChanged(object sender, EventArgs e)
+        {
+            Calculate();
+        }
+
+        private void cm1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Calculate();
         }
