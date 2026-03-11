@@ -1,0 +1,17 @@
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\bin\Debug\net10.0-windows\OwnType.exe
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\bin\Debug\net10.0-windows\OwnType.deps.json
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\bin\Debug\net10.0-windows\OwnType.runtimeconfig.json
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\bin\Debug\net10.0-windows\OwnType.dll
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\bin\Debug\net10.0-windows\OwnType.pdb
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.Form1.resources
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.csproj.GenerateResource.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.AssemblyInfoInputs.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.AssemblyInfo.cs
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.csproj.CoreCompileInputs.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.sourcelink.json
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.dll
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\refint\OwnType.dll
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.pdb
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\OwnType.genruntimeconfig.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\ownTypeMod\OwnType\OwnType\obj\Debug\net10.0-windows\ref\OwnType.dll
