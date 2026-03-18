@@ -16,10 +16,9 @@ namespace OwnType
             this.y = y;
             this.z = z;
         }
-
-        public double Len()
+        public string Verbose()
         {
-            return Math.Sqrt(x * x + y * y + z * z);
+            return String.Format("{0};{1};{2}", this.x, this.y, this.z);
         }
         public static Vector operator+(Vector a,Vector b)
         {
@@ -31,10 +30,10 @@ namespace OwnType
             var newVector = new Vector(a.x - b.x, a.y - b.y, a.z - b.z);
             return newVector;
         }
-        public static Vector operator*(Vector a, Vector b)
+        public static double operator*(Vector a, Vector b)
         {
-            var scalyre = ((a.x * secondX) + (firstY * secondY) + (firstZ * secondZ))
-            return newVector;
+            var scalyre = ((a.x * b.x) + (a.y * b.y) + (a.z * b.z));
+            return scalyre;
         }
     }
 }

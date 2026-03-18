@@ -12,10 +12,28 @@ namespace TestProject1
         }
 
         [Test]
-        public void LenTest()
+        public void AddNumberTest()
         {
-            var ownVector = new Vector(0,0,2);
-            Assert.That(ownVector.Len(), Is.EqualTo(2.0));
+            var vector = new Vector(1, 2, 3);
+            var vector2 = new Vector(3, 5, 2);
+            var vector3 = vector + vector2;
+            Assert.That("4;7;5", Is.EqualTo(vector3.Verbose()));
+        }
+        [Test]
+        public void SubNumberTest()
+        {
+            var vector = new Vector(1, 2, 3);
+            var vector2 = new Vector(3, 5, 2);
+            var vector3 = vector - vector2;
+            Assert.That("-2;-3;1", Is.EqualTo(vector3.Verbose()));
+        }
+        [Test]
+        public void MulByNumberTest()
+        {
+            var vector = new Vector(1, 2, 3);
+            var vector2 = new Vector(3, 5, 2);
+            var scalyr = vector * vector2;
+            Assert.That(19, Is.EqualTo(scalyr));
         }
     }
 }
