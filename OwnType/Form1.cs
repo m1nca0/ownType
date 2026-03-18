@@ -28,11 +28,11 @@ namespace OwnType
                 {
                     case "+":
                         vector3 = vector1 + vector2;
-                        txtResult.Text = '[' + vector3.Verbose() + ']';
+                        txtResult.Text = vector3.ToString();
                         break;
                     case "-":
                         vector3 = vector1 - vector2;
-                        txtResult.Text = '[' + vector3.Verbose() + ']';
+                        txtResult.Text = vector3.ToString();
                         break;
                     case "*":
                         scalyr = vector1 * vector2;
@@ -40,7 +40,7 @@ namespace OwnType
                         break;
                     case "&":
                         vector3 = vector1 & vector2;
-                        txtResult.Text = '[' + vector3.Verbose() + ']';
+                        txtResult.Text = vector3.ToString();
                         break;
                     case "len a":
                         txtResult.Text = vector1.Len().ToString();

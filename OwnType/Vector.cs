@@ -16,9 +16,18 @@ namespace OwnType
             this.y = y;
             this.z = z;
         }
-        public string Verbose()
+        public override string ToString()
         {
-            return String.Format("{0};{1};{2}", this.x, this.y, this.z);
+            return $"({this.x},{this.y},{this.z})";
+        }
+        public override bool Equals(object? obj)
+        {
+            var vector = obj as Vector;
+            if (vector == null)
+            {
+                return false;
+            }
+            return (this.x == vector.x && this.y == vector.y && this.z == vector.z);
         }
         public double Len()
         {
