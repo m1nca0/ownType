@@ -28,12 +28,12 @@ namespace TestProject1
             Assert.That("-2;-3;1", Is.EqualTo(vector3.Verbose()));
         }
         [Test]
-        public void MulByNumberTest()
+        public void VectorMultiplyNumberTest()
         {
             var vector = new Vector(1, 2, 3);
             var vector2 = new Vector(3, 5, 2);
-            var scalyr = vector * vector2;
-            Assert.That(19, Is.EqualTo(scalyr));
+            var vector3 = vector & vector2;
+            Assert.That("-11;7;-1",Is.EqualTo(vector3.Verbose()));
         }
     }
 }

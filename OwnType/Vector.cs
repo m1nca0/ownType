@@ -30,10 +30,16 @@ namespace OwnType
             var newVector = new Vector(a.x - b.x, a.y - b.y, a.z - b.z);
             return newVector;
         }
-        public static double operator*(Vector a, Vector b)
+        public static double operator *(Vector a, Vector b)
         {
             var scalyre = ((a.x * b.x) + (a.y * b.y) + (a.z * b.z));
             return scalyre;
         }
+        public static Vector operator&(Vector a, Vector b)
+        {
+            var newVector = new Vector((a.y * b.z) - (a.z * b.y), (a.z * b.x) - (a.x * b.z), (a.x * b.y) - (a.y * b.x));
+            return newVector;
+        }
+
     }
 }
