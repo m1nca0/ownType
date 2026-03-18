@@ -60,7 +60,6 @@
             label2.Size = new Size(13, 15);
             label2.TabIndex = 1;
             label2.Text = "y";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -77,7 +76,7 @@
             textFirstX.Name = "textFirstX";
             textFirstX.Size = new Size(52, 23);
             textFirstX.TabIndex = 3;
-            textFirstX.TextChanged += textFirstX_TextChanged;
+            textFirstX.TextChanged += onValueChanged;
             // 
             // textFirstY
             // 
@@ -85,7 +84,7 @@
             textFirstY.Name = "textFirstY";
             textFirstY.Size = new Size(52, 23);
             textFirstY.TabIndex = 4;
-            textFirstY.TextChanged += textFirstY_TextChanged;
+            textFirstY.TextChanged += onValueChanged;
             // 
             // textFirstZ
             // 
@@ -93,7 +92,7 @@
             textFirstZ.Name = "textFirstZ";
             textFirstZ.Size = new Size(52, 23);
             textFirstZ.TabIndex = 5;
-            textFirstZ.TextChanged += textFirstZ_TextChanged;
+            textFirstZ.TextChanged += onValueChanged;
             // 
             // textSecondX
             // 
@@ -101,7 +100,7 @@
             textSecondX.Name = "textSecondX";
             textSecondX.Size = new Size(52, 23);
             textSecondX.TabIndex = 6;
-            textSecondX.TextChanged += textSecondX_TextChanged;
+            textSecondX.TextChanged += onValueChanged;
             // 
             // textSecondY
             // 
@@ -109,7 +108,7 @@
             textSecondY.Name = "textSecondY";
             textSecondY.Size = new Size(52, 23);
             textSecondY.TabIndex = 7;
-            textSecondY.TextChanged += textSecondY_TextChanged;
+            textSecondY.TextChanged += onValueChanged;
             // 
             // textSecondZ
             // 
@@ -117,7 +116,7 @@
             textSecondZ.Name = "textSecondZ";
             textSecondZ.Size = new Size(52, 23);
             textSecondZ.TabIndex = 8;
-            textSecondZ.TextChanged += textSecondZ_TextChanged;
+            textSecondZ.TextChanged += onValueChanged;
             // 
             // label4
             // 
@@ -154,7 +153,7 @@
             cm1.Size = new Size(48, 23);
             cm1.TabIndex = 12;
             cm1.Text = "+";
-            cm1.SelectedIndexChanged += cm1_SelectedIndexChanged;
+            cm1.SelectedIndexChanged += onValueChanged;
             // 
             // Form1
             // 

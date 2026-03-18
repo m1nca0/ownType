@@ -20,9 +20,13 @@ namespace OwnType
         {
             return String.Format("{0};{1};{2}", this.x, this.y, this.z);
         }
+        public double Len()
+        {
+            return Math.Sqrt((this.x * this.x) +  (this.y * this.y) + (this.z * this.z));
+        }
         public static Vector operator+(Vector a,Vector b)
         {
-            var newVector = new Vector(a.x+b.x, a.y + b.y, a.z + b.z);
+            var newVector = new Vector(a.x + b.x, a.y + b.y, a.z + b.z);
             return newVector;
         }
         public static Vector operator-(Vector a, Vector b)
